@@ -15,13 +15,12 @@ body {
   min-height: 100vh;
 }
 
-/* Navbar Styling */
 .navbar {
   position: fixed !important;
   top: 0;
   width: 100%;
   z-index: 1000;
-  background: linear-gradient(135deg, #008080 0%, #ff7f50 100%) !important; /* Teal → Coral */
+  background: linear-gradient(135deg, #008080 0%, #ff7f50 100%) !important;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255,255,255,0.2);
   padding: 1rem 0;
@@ -42,11 +41,10 @@ body {
 }
 
 .nav-link:hover {
-  color: #ffd700 !important; /* Golden highlight */
+  color: #ffd700 !important;
   transform: translateY(-2px);
 }
 
-/* Content spacing */
 main {
   padding-top: 100px;
 }
@@ -56,7 +54,7 @@ section {
   padding: 4rem 0;
 }
 
-/* Hero Section */
+
 .hero-section {
   background: linear-gradient(135deg, #008080 0%, #ff7f50 100%);
   color: white;
@@ -79,14 +77,14 @@ section {
   font-size: 1.3rem;
 }
 
-/* Sections */
+
 .about-section {
   background: #fdfcfb;
   color: #2c3e50;
 }
 
 .contact-section {
-  background: #fff8f0; /* light coral/peach */
+  background: #fff8f0;
   color: #2c3e50;
 }
 
@@ -99,12 +97,12 @@ h1, h2, h3 {
 
 h2 {
   font-size: 2.5rem;
-  color: #008080; /* Teal */
+  color: #008080; 
 }
 
 h3 {
   font-size: 2rem;
-  color: #ff7f50; /* Coral */
+  color: #ff7f50;
 }
 
 .lead {
@@ -113,7 +111,6 @@ h3 {
   color: #444;
 }
 
-/* Cards */
 .card {
   border: none;
   border-radius: 15px;
@@ -126,7 +123,6 @@ h3 {
   box-shadow: 0 12px 24px rgba(0,0,0,0.12);
 }
 
-/* Form */
 .form-control {
   border-radius: 10px;
   border: 2px solid #e9ecef;
@@ -139,7 +135,6 @@ h3 {
   box-shadow: 0 0 0 0.2rem rgba(255, 127, 80, 0.25);
 }
 
-/* Buttons */
 .btn {
   border-radius: 8px;
   padding: 0.75rem 2rem;
@@ -164,7 +159,6 @@ h3 {
   color: white;
 }
 
-/* Footer */
 footer {
   background: linear-gradient(135deg, #2c3e50 0%, #008080 100%);
   color: white;
@@ -173,7 +167,6 @@ footer {
   text-align: center;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   h1 {
     font-size: 2.2rem;
